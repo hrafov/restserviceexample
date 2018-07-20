@@ -1,0 +1,450 @@
+2018-07-11 15:12:33 INFO  CustomListener:44 - test starts FileTest2 on Wed Jul 11 15:12:33 EEST 2018
+2018-07-11 15:12:33 INFO  CustomListener:44 - test starts FileTest2 on Wed Jul 11 15:12:33 EEST 2018
+2018-07-11 15:12:33 INFO  CustomListener:19 - test starts null
+2018-07-11 15:12:33 INFO  CustomListener:19 - test starts null
+2018-07-11 15:12:33 INFO  TestFileRepo:21 - 
+ test======= upload file
+2018-07-11 15:12:38 INFO  CustomListener:29 - test failed null
+2018-07-11 15:12:38 INFO  CustomListener:29 - test failed null
+2018-07-11 15:12:38 INFO  CustomListener:19 - test starts null
+2018-07-11 15:12:38 INFO  CustomListener:19 - test starts null
+2018-07-11 15:12:38 INFO  TestFileRepo:29 - 
+ test======= delete file
+2018-07-11 15:12:38 INFO  CustomListener:29 - test failed null
+2018-07-11 15:12:38 INFO  CustomListener:29 - test failed null
+2018-07-11 15:12:38 INFO  CustomListener:19 - test starts null
+2018-07-11 15:12:38 INFO  CustomListener:19 - test starts null
+2018-07-11 15:12:38 INFO  TestFileRepo:37 - 
+ test======= download file
+2018-07-11 15:12:38 INFO  CustomListener:29 - test failed null
+2018-07-11 15:12:38 INFO  CustomListener:29 - test failed null
+2018-07-11 15:12:38 INFO  CustomListener:19 - test starts null
+2018-07-11 15:12:38 INFO  CustomListener:19 - test starts null
+2018-07-11 15:12:38 INFO  TestFileRepo:45 - 
+ test======= upload file >1Mb
+2018-07-11 15:12:39 INFO  CustomListener:29 - test failed null
+2018-07-11 15:12:39 INFO  CustomListener:29 - test failed null
+2018-07-11 15:12:39 INFO  CustomListener:19 - test starts null
+2018-07-11 15:12:39 INFO  CustomListener:19 - test starts null
+2018-07-11 15:12:39 INFO  TestFileRepo:53 - 
+ test======= download file > 1Mb
+2018-07-11 15:12:39 INFO  CustomListener:29 - test failed null
+2018-07-11 15:12:39 INFO  CustomListener:29 - test failed null
+2018-07-11 15:12:39 INFO  CustomListener:19 - test starts null
+2018-07-11 15:12:39 INFO  CustomListener:19 - test starts null
+2018-07-11 15:12:39 INFO  TestFileRepo:60 - 
+ test======= upload file with incorrect name
+2018-07-11 15:12:39 INFO  CustomListener:29 - test failed null
+2018-07-11 15:12:39 INFO  CustomListener:29 - test failed null
+2018-07-11 15:12:39 INFO  CustomListener:19 - test starts null
+2018-07-11 15:12:39 INFO  CustomListener:19 - test starts null
+2018-07-11 15:12:39 INFO  TestFileRepo:68 - 
+ test======= delete file with incorrect name
+2018-07-11 15:12:39 INFO  CustomListener:29 - test failed null
+2018-07-11 15:12:39 INFO  CustomListener:29 - test failed null
+2018-07-11 15:12:39 INFO  CustomListener:19 - test starts null
+2018-07-11 15:12:39 INFO  CustomListener:19 - test starts null
+2018-07-11 15:12:39 INFO  TestFileRepo:76 - 
+ test======= download file with incorrect name
+2018-07-11 15:12:39 INFO  CustomListener:29 - test failed null
+2018-07-11 15:12:39 INFO  CustomListener:29 - test failed null
+2018-07-11 15:12:39 INFO  CustomListener:19 - test starts null
+2018-07-11 15:12:39 INFO  CustomListener:19 - test starts null
+2018-07-11 15:12:39 INFO  TestFileRepo:84 - 
+ test======= idempotent upload
+2018-07-11 15:12:40 INFO  CustomListener:29 - test failed null
+2018-07-11 15:12:40 INFO  CustomListener:29 - test failed null
+2018-07-11 15:12:40 INFO  CustomListener:19 - test starts null
+2018-07-11 15:12:40 INFO  CustomListener:19 - test starts null
+2018-07-11 15:12:40 INFO  TestFileRepo:93 - 
+ test======= idempotent delete
+2018-07-11 15:12:40 INFO  CustomListener:29 - test failed null
+2018-07-11 15:12:40 INFO  CustomListener:29 - test failed null
+2018-07-11 15:12:40 INFO  CustomListener:19 - test starts null
+2018-07-11 15:12:40 INFO  CustomListener:19 - test starts null
+2018-07-11 15:12:40 INFO  TestFileRepo:102 - 
+ test======= idempotent download
+2018-07-11 15:12:40 INFO  CustomListener:29 - test failed null
+2018-07-11 15:12:40 INFO  CustomListener:29 - test failed null
+2018-07-11 15:12:40 INFO  CustomListener:49 - Passed tests: [ResultMap map={}]
+2018-07-11 15:12:40 INFO  CustomListener:50 - Failed tests:[ResultMap map={[TestResult name=download1Mb status=FAILURE method=TestFileRepo.download1Mb()[pri:4, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.download1Mb()[pri:4, instance:com.epam.rest.service.test.TestFileRepo@1d422d], [TestResult name=upload status=FAILURE method=TestFileRepo.upload()[pri:0, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.upload()[pri:0, instance:com.epam.rest.service.test.TestFileRepo@1d422d], [TestResult name=upload1mb status=FAILURE method=TestFileRepo.upload1mb()[pri:3, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.upload1mb()[pri:3, instance:com.epam.rest.service.test.TestFileRepo@1d422d], [TestResult name=deleteIdempotent status=FAILURE method=TestFileRepo.deleteIdempotent()[pri:9, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.deleteIdempotent()[pri:9, instance:com.epam.rest.service.test.TestFileRepo@1d422d], [TestResult name=download status=FAILURE method=TestFileRepo.download()[pri:2, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.download()[pri:2, instance:com.epam.rest.service.test.TestFileRepo@1d422d], [TestResult name=deleteIncorrect status=FAILURE method=TestFileRepo.deleteIncorrect()[pri:6, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.deleteIncorrect()[pri:6, instance:com.epam.rest.service.test.TestFileRepo@1d422d], [TestResult name=downloadIdempotent status=FAILURE method=TestFileRepo.downloadIdempotent()[pri:10, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.downloadIdempotent()[pri:10, instance:com.epam.rest.service.test.TestFileRepo@1d422d], [TestResult name=downloadIncorrect status=FAILURE method=TestFileRepo.downloadIncorrect()[pri:7, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.downloadIncorrect()[pri:7, instance:com.epam.rest.service.test.TestFileRepo@1d422d], [TestResult name=delete status=FAILURE method=TestFileRepo.delete()[pri:1, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.delete()[pri:1, instance:com.epam.rest.service.test.TestFileRepo@1d422d], [TestResult name=uploadIncorrect status=FAILURE method=TestFileRepo.uploadIncorrect()[pri:5, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.uploadIncorrect()[pri:5, instance:com.epam.rest.service.test.TestFileRepo@1d422d], [TestResult name=uploadIdempotent status=FAILURE method=TestFileRepo.uploadIdempotent()[pri:8, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.uploadIdempotent()[pri:8, instance:com.epam.rest.service.test.TestFileRepo@1d422d]}]
+2018-07-11 15:12:40 INFO  CustomListener:49 - Passed tests: [ResultMap map={}]
+2018-07-11 15:12:40 INFO  CustomListener:50 - Failed tests:[ResultMap map={[TestResult name=download1Mb status=FAILURE method=TestFileRepo.download1Mb()[pri:4, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.download1Mb()[pri:4, instance:com.epam.rest.service.test.TestFileRepo@1d422d], [TestResult name=upload status=FAILURE method=TestFileRepo.upload()[pri:0, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.upload()[pri:0, instance:com.epam.rest.service.test.TestFileRepo@1d422d], [TestResult name=upload1mb status=FAILURE method=TestFileRepo.upload1mb()[pri:3, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.upload1mb()[pri:3, instance:com.epam.rest.service.test.TestFileRepo@1d422d], [TestResult name=deleteIdempotent status=FAILURE method=TestFileRepo.deleteIdempotent()[pri:9, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.deleteIdempotent()[pri:9, instance:com.epam.rest.service.test.TestFileRepo@1d422d], [TestResult name=download status=FAILURE method=TestFileRepo.download()[pri:2, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.download()[pri:2, instance:com.epam.rest.service.test.TestFileRepo@1d422d], [TestResult name=deleteIncorrect status=FAILURE method=TestFileRepo.deleteIncorrect()[pri:6, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.deleteIncorrect()[pri:6, instance:com.epam.rest.service.test.TestFileRepo@1d422d], [TestResult name=downloadIdempotent status=FAILURE method=TestFileRepo.downloadIdempotent()[pri:10, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.downloadIdempotent()[pri:10, instance:com.epam.rest.service.test.TestFileRepo@1d422d], [TestResult name=downloadIncorrect status=FAILURE method=TestFileRepo.downloadIncorrect()[pri:7, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.downloadIncorrect()[pri:7, instance:com.epam.rest.service.test.TestFileRepo@1d422d], [TestResult name=delete status=FAILURE method=TestFileRepo.delete()[pri:1, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.delete()[pri:1, instance:com.epam.rest.service.test.TestFileRepo@1d422d], [TestResult name=uploadIncorrect status=FAILURE method=TestFileRepo.uploadIncorrect()[pri:5, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.uploadIncorrect()[pri:5, instance:com.epam.rest.service.test.TestFileRepo@1d422d], [TestResult name=uploadIdempotent status=FAILURE method=TestFileRepo.uploadIdempotent()[pri:8, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.uploadIdempotent()[pri:8, instance:com.epam.rest.service.test.TestFileRepo@1d422d]}]
+2018-07-11 15:12:40 INFO  CustomListener:60 - Passed tests for suite 'Suite1' is - 0
+2018-07-11 15:12:40 INFO  CustomListener:62 - Failed tests for suite 'Suite1' is:11
+2018-07-11 15:12:40 INFO  CustomListener:64 - Skipped tests for suite 'Suite1' is:0
+2018-07-11 15:25:16 INFO  CustomListener:44 - test starts FileTest2 on Wed Jul 11 15:25:16 EEST 2018
+2018-07-11 15:25:16 INFO  CustomListener:44 - test starts FileTest2 on Wed Jul 11 15:25:16 EEST 2018
+2018-07-11 15:25:16 INFO  CustomListener:19 - test starts null
+2018-07-11 15:25:16 INFO  CustomListener:19 - test starts null
+2018-07-11 15:25:16 INFO  TestFileRepo:21 - 
+ test======= upload file
+2018-07-11 15:25:22 INFO  CustomListener:29 - test failed null
+2018-07-11 15:25:22 INFO  CustomListener:29 - test failed null
+2018-07-11 15:25:22 INFO  CustomListener:19 - test starts null
+2018-07-11 15:25:22 INFO  CustomListener:19 - test starts null
+2018-07-11 15:25:22 INFO  TestFileRepo:29 - 
+ test======= delete file
+2018-07-11 15:25:22 INFO  CustomListener:29 - test failed null
+2018-07-11 15:25:22 INFO  CustomListener:29 - test failed null
+2018-07-11 15:25:22 INFO  CustomListener:19 - test starts null
+2018-07-11 15:25:22 INFO  CustomListener:19 - test starts null
+2018-07-11 15:25:22 INFO  TestFileRepo:37 - 
+ test======= download file
+2018-07-11 15:25:22 INFO  CustomListener:29 - test failed null
+2018-07-11 15:25:22 INFO  CustomListener:29 - test failed null
+2018-07-11 15:25:22 INFO  CustomListener:19 - test starts null
+2018-07-11 15:25:22 INFO  CustomListener:19 - test starts null
+2018-07-11 15:25:22 INFO  TestFileRepo:45 - 
+ test======= upload file >1Mb
+2018-07-11 15:25:23 INFO  CustomListener:29 - test failed null
+2018-07-11 15:25:23 INFO  CustomListener:29 - test failed null
+2018-07-11 15:25:23 INFO  CustomListener:19 - test starts null
+2018-07-11 15:25:23 INFO  CustomListener:19 - test starts null
+2018-07-11 15:25:23 INFO  TestFileRepo:53 - 
+ test======= download file > 1Mb
+2018-07-11 15:25:23 INFO  CustomListener:29 - test failed null
+2018-07-11 15:25:23 INFO  CustomListener:29 - test failed null
+2018-07-11 15:25:23 INFO  CustomListener:19 - test starts null
+2018-07-11 15:25:23 INFO  CustomListener:19 - test starts null
+2018-07-11 15:25:23 INFO  TestFileRepo:60 - 
+ test======= upload file with incorrect name
+2018-07-11 15:25:23 INFO  CustomListener:29 - test failed null
+2018-07-11 15:25:23 INFO  CustomListener:29 - test failed null
+2018-07-11 15:25:23 INFO  CustomListener:19 - test starts null
+2018-07-11 15:25:23 INFO  CustomListener:19 - test starts null
+2018-07-11 15:25:23 INFO  TestFileRepo:68 - 
+ test======= delete file with incorrect name
+2018-07-11 15:25:23 INFO  CustomListener:29 - test failed null
+2018-07-11 15:25:23 INFO  CustomListener:29 - test failed null
+2018-07-11 15:25:23 INFO  CustomListener:19 - test starts null
+2018-07-11 15:25:23 INFO  CustomListener:19 - test starts null
+2018-07-11 15:25:23 INFO  TestFileRepo:76 - 
+ test======= download file with incorrect name
+2018-07-11 15:25:23 INFO  CustomListener:29 - test failed null
+2018-07-11 15:25:23 INFO  CustomListener:29 - test failed null
+2018-07-11 15:25:23 INFO  CustomListener:19 - test starts null
+2018-07-11 15:25:23 INFO  CustomListener:19 - test starts null
+2018-07-11 15:25:23 INFO  TestFileRepo:84 - 
+ test======= idempotent upload
+2018-07-11 15:25:24 INFO  CustomListener:29 - test failed null
+2018-07-11 15:25:24 INFO  CustomListener:29 - test failed null
+2018-07-11 15:25:24 INFO  CustomListener:19 - test starts null
+2018-07-11 15:25:24 INFO  CustomListener:19 - test starts null
+2018-07-11 15:25:24 INFO  TestFileRepo:93 - 
+ test======= idempotent delete
+2018-07-11 15:25:24 INFO  CustomListener:29 - test failed null
+2018-07-11 15:25:24 INFO  CustomListener:29 - test failed null
+2018-07-11 15:25:24 INFO  CustomListener:19 - test starts null
+2018-07-11 15:25:24 INFO  CustomListener:19 - test starts null
+2018-07-11 15:25:24 INFO  TestFileRepo:102 - 
+ test======= idempotent download
+2018-07-11 15:25:25 INFO  CustomListener:29 - test failed null
+2018-07-11 15:25:25 INFO  CustomListener:29 - test failed null
+2018-07-11 15:25:25 INFO  CustomListener:49 - Passed tests: [ResultMap map={}]
+2018-07-11 15:25:25 INFO  CustomListener:50 - Failed tests:[ResultMap map={[TestResult name=download1Mb status=FAILURE method=TestFileRepo.download1Mb()[pri:4, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.download1Mb()[pri:4, instance:com.epam.rest.service.test.TestFileRepo@1d422d], [TestResult name=upload status=FAILURE method=TestFileRepo.upload()[pri:0, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.upload()[pri:0, instance:com.epam.rest.service.test.TestFileRepo@1d422d], [TestResult name=upload1mb status=FAILURE method=TestFileRepo.upload1mb()[pri:3, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.upload1mb()[pri:3, instance:com.epam.rest.service.test.TestFileRepo@1d422d], [TestResult name=deleteIdempotent status=FAILURE method=TestFileRepo.deleteIdempotent()[pri:9, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.deleteIdempotent()[pri:9, instance:com.epam.rest.service.test.TestFileRepo@1d422d], [TestResult name=download status=FAILURE method=TestFileRepo.download()[pri:2, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.download()[pri:2, instance:com.epam.rest.service.test.TestFileRepo@1d422d], [TestResult name=deleteIncorrect status=FAILURE method=TestFileRepo.deleteIncorrect()[pri:6, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.deleteIncorrect()[pri:6, instance:com.epam.rest.service.test.TestFileRepo@1d422d], [TestResult name=downloadIdempotent status=FAILURE method=TestFileRepo.downloadIdempotent()[pri:10, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.downloadIdempotent()[pri:10, instance:com.epam.rest.service.test.TestFileRepo@1d422d], [TestResult name=downloadIncorrect status=FAILURE method=TestFileRepo.downloadIncorrect()[pri:7, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.downloadIncorrect()[pri:7, instance:com.epam.rest.service.test.TestFileRepo@1d422d], [TestResult name=delete status=FAILURE method=TestFileRepo.delete()[pri:1, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.delete()[pri:1, instance:com.epam.rest.service.test.TestFileRepo@1d422d], [TestResult name=uploadIncorrect status=FAILURE method=TestFileRepo.uploadIncorrect()[pri:5, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.uploadIncorrect()[pri:5, instance:com.epam.rest.service.test.TestFileRepo@1d422d], [TestResult name=uploadIdempotent status=FAILURE method=TestFileRepo.uploadIdempotent()[pri:8, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.uploadIdempotent()[pri:8, instance:com.epam.rest.service.test.TestFileRepo@1d422d]}]
+2018-07-11 15:25:25 INFO  CustomListener:49 - Passed tests: [ResultMap map={}]
+2018-07-11 15:25:25 INFO  CustomListener:50 - Failed tests:[ResultMap map={[TestResult name=download1Mb status=FAILURE method=TestFileRepo.download1Mb()[pri:4, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.download1Mb()[pri:4, instance:com.epam.rest.service.test.TestFileRepo@1d422d], [TestResult name=upload status=FAILURE method=TestFileRepo.upload()[pri:0, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.upload()[pri:0, instance:com.epam.rest.service.test.TestFileRepo@1d422d], [TestResult name=upload1mb status=FAILURE method=TestFileRepo.upload1mb()[pri:3, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.upload1mb()[pri:3, instance:com.epam.rest.service.test.TestFileRepo@1d422d], [TestResult name=deleteIdempotent status=FAILURE method=TestFileRepo.deleteIdempotent()[pri:9, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.deleteIdempotent()[pri:9, instance:com.epam.rest.service.test.TestFileRepo@1d422d], [TestResult name=download status=FAILURE method=TestFileRepo.download()[pri:2, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.download()[pri:2, instance:com.epam.rest.service.test.TestFileRepo@1d422d], [TestResult name=deleteIncorrect status=FAILURE method=TestFileRepo.deleteIncorrect()[pri:6, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.deleteIncorrect()[pri:6, instance:com.epam.rest.service.test.TestFileRepo@1d422d], [TestResult name=downloadIdempotent status=FAILURE method=TestFileRepo.downloadIdempotent()[pri:10, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.downloadIdempotent()[pri:10, instance:com.epam.rest.service.test.TestFileRepo@1d422d], [TestResult name=downloadIncorrect status=FAILURE method=TestFileRepo.downloadIncorrect()[pri:7, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.downloadIncorrect()[pri:7, instance:com.epam.rest.service.test.TestFileRepo@1d422d], [TestResult name=delete status=FAILURE method=TestFileRepo.delete()[pri:1, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.delete()[pri:1, instance:com.epam.rest.service.test.TestFileRepo@1d422d], [TestResult name=uploadIncorrect status=FAILURE method=TestFileRepo.uploadIncorrect()[pri:5, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.uploadIncorrect()[pri:5, instance:com.epam.rest.service.test.TestFileRepo@1d422d], [TestResult name=uploadIdempotent status=FAILURE method=TestFileRepo.uploadIdempotent()[pri:8, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.uploadIdempotent()[pri:8, instance:com.epam.rest.service.test.TestFileRepo@1d422d]}]
+2018-07-11 15:25:25 INFO  CustomListener:60 - Passed tests for suite 'Suite1' is - 0
+2018-07-11 15:25:25 INFO  CustomListener:62 - Failed tests for suite 'Suite1' is:11
+2018-07-11 15:25:25 INFO  CustomListener:64 - Skipped tests for suite 'Suite1' is:0
+2018-07-11 15:35:13 INFO  CustomListener:44 - test starts FileTest2 on Wed Jul 11 15:35:13 EEST 2018
+2018-07-11 15:35:13 INFO  CustomListener:44 - test starts FileTest2 on Wed Jul 11 15:35:13 EEST 2018
+2018-07-11 15:35:13 INFO  CustomListener:19 - test starts null
+2018-07-11 15:35:13 INFO  CustomListener:19 - test starts null
+2018-07-11 15:35:13 INFO  TestFileRepo:21 - 
+ test======= upload file
+2018-07-11 15:35:17 INFO  CustomListener:29 - test failed null
+2018-07-11 15:35:17 INFO  CustomListener:29 - test failed null
+2018-07-11 15:35:17 INFO  CustomListener:19 - test starts null
+2018-07-11 15:35:17 INFO  CustomListener:19 - test starts null
+2018-07-11 15:35:17 INFO  TestFileRepo:29 - 
+ test======= delete file
+2018-07-11 15:35:17 INFO  CustomListener:29 - test failed null
+2018-07-11 15:35:17 INFO  CustomListener:29 - test failed null
+2018-07-11 15:35:17 INFO  CustomListener:19 - test starts null
+2018-07-11 15:35:17 INFO  CustomListener:19 - test starts null
+2018-07-11 15:35:17 INFO  TestFileRepo:37 - 
+ test======= download file
+2018-07-11 15:35:17 INFO  CustomListener:29 - test failed null
+2018-07-11 15:35:17 INFO  CustomListener:29 - test failed null
+2018-07-11 15:35:17 INFO  CustomListener:19 - test starts null
+2018-07-11 15:35:17 INFO  CustomListener:19 - test starts null
+2018-07-11 15:35:17 INFO  TestFileRepo:45 - 
+ test======= upload file >1Mb
+2018-07-11 15:35:18 INFO  CustomListener:29 - test failed null
+2018-07-11 15:35:18 INFO  CustomListener:29 - test failed null
+2018-07-11 15:35:18 INFO  CustomListener:19 - test starts null
+2018-07-11 15:35:18 INFO  CustomListener:19 - test starts null
+2018-07-11 15:35:18 INFO  TestFileRepo:53 - 
+ test======= download file > 1Mb
+2018-07-11 15:35:18 INFO  CustomListener:29 - test failed null
+2018-07-11 15:35:18 INFO  CustomListener:29 - test failed null
+2018-07-11 15:35:18 INFO  CustomListener:19 - test starts null
+2018-07-11 15:35:18 INFO  CustomListener:19 - test starts null
+2018-07-11 15:35:18 INFO  TestFileRepo:60 - 
+ test======= upload file with incorrect name
+2018-07-11 15:35:18 INFO  CustomListener:29 - test failed null
+2018-07-11 15:35:18 INFO  CustomListener:29 - test failed null
+2018-07-11 15:35:18 INFO  CustomListener:19 - test starts null
+2018-07-11 15:35:18 INFO  CustomListener:19 - test starts null
+2018-07-11 15:35:18 INFO  TestFileRepo:68 - 
+ test======= delete file with incorrect name
+2018-07-11 15:35:18 INFO  CustomListener:29 - test failed null
+2018-07-11 15:35:18 INFO  CustomListener:29 - test failed null
+2018-07-11 15:35:18 INFO  CustomListener:19 - test starts null
+2018-07-11 15:35:18 INFO  CustomListener:19 - test starts null
+2018-07-11 15:35:18 INFO  TestFileRepo:76 - 
+ test======= download file with incorrect name
+2018-07-11 15:35:18 INFO  CustomListener:29 - test failed null
+2018-07-11 15:35:18 INFO  CustomListener:29 - test failed null
+2018-07-11 15:35:18 INFO  CustomListener:19 - test starts null
+2018-07-11 15:35:18 INFO  CustomListener:19 - test starts null
+2018-07-11 15:35:18 INFO  TestFileRepo:84 - 
+ test======= idempotent upload
+2018-07-11 15:35:19 INFO  CustomListener:29 - test failed null
+2018-07-11 15:35:19 INFO  CustomListener:29 - test failed null
+2018-07-11 15:35:19 INFO  CustomListener:19 - test starts null
+2018-07-11 15:35:19 INFO  CustomListener:19 - test starts null
+2018-07-11 15:35:19 INFO  TestFileRepo:93 - 
+ test======= idempotent delete
+2018-07-11 15:35:19 INFO  CustomListener:29 - test failed null
+2018-07-11 15:35:19 INFO  CustomListener:29 - test failed null
+2018-07-11 15:35:19 INFO  CustomListener:19 - test starts null
+2018-07-11 15:35:19 INFO  CustomListener:19 - test starts null
+2018-07-11 15:35:19 INFO  TestFileRepo:102 - 
+ test======= idempotent download
+2018-07-11 15:35:19 INFO  CustomListener:29 - test failed null
+2018-07-11 15:35:19 INFO  CustomListener:29 - test failed null
+2018-07-11 15:35:19 INFO  CustomListener:49 - Passed tests: [ResultMap map={}]
+2018-07-11 15:35:19 INFO  CustomListener:50 - Failed tests:[ResultMap map={[TestResult name=download1Mb status=FAILURE method=TestFileRepo.download1Mb()[pri:4, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.download1Mb()[pri:4, instance:com.epam.rest.service.test.TestFileRepo@1d422d], [TestResult name=upload status=FAILURE method=TestFileRepo.upload()[pri:0, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.upload()[pri:0, instance:com.epam.rest.service.test.TestFileRepo@1d422d], [TestResult name=upload1mb status=FAILURE method=TestFileRepo.upload1mb()[pri:3, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.upload1mb()[pri:3, instance:com.epam.rest.service.test.TestFileRepo@1d422d], [TestResult name=deleteIdempotent status=FAILURE method=TestFileRepo.deleteIdempotent()[pri:9, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.deleteIdempotent()[pri:9, instance:com.epam.rest.service.test.TestFileRepo@1d422d], [TestResult name=download status=FAILURE method=TestFileRepo.download()[pri:2, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.download()[pri:2, instance:com.epam.rest.service.test.TestFileRepo@1d422d], [TestResult name=deleteIncorrect status=FAILURE method=TestFileRepo.deleteIncorrect()[pri:6, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.deleteIncorrect()[pri:6, instance:com.epam.rest.service.test.TestFileRepo@1d422d], [TestResult name=downloadIdempotent status=FAILURE method=TestFileRepo.downloadIdempotent()[pri:10, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.downloadIdempotent()[pri:10, instance:com.epam.rest.service.test.TestFileRepo@1d422d], [TestResult name=downloadIncorrect status=FAILURE method=TestFileRepo.downloadIncorrect()[pri:7, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.downloadIncorrect()[pri:7, instance:com.epam.rest.service.test.TestFileRepo@1d422d], [TestResult name=delete status=FAILURE method=TestFileRepo.delete()[pri:1, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.delete()[pri:1, instance:com.epam.rest.service.test.TestFileRepo@1d422d], [TestResult name=uploadIncorrect status=FAILURE method=TestFileRepo.uploadIncorrect()[pri:5, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.uploadIncorrect()[pri:5, instance:com.epam.rest.service.test.TestFileRepo@1d422d], [TestResult name=uploadIdempotent status=FAILURE method=TestFileRepo.uploadIdempotent()[pri:8, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.uploadIdempotent()[pri:8, instance:com.epam.rest.service.test.TestFileRepo@1d422d]}]
+2018-07-11 15:35:19 INFO  CustomListener:49 - Passed tests: [ResultMap map={}]
+2018-07-11 15:35:19 INFO  CustomListener:50 - Failed tests:[ResultMap map={[TestResult name=download1Mb status=FAILURE method=TestFileRepo.download1Mb()[pri:4, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.download1Mb()[pri:4, instance:com.epam.rest.service.test.TestFileRepo@1d422d], [TestResult name=upload status=FAILURE method=TestFileRepo.upload()[pri:0, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.upload()[pri:0, instance:com.epam.rest.service.test.TestFileRepo@1d422d], [TestResult name=upload1mb status=FAILURE method=TestFileRepo.upload1mb()[pri:3, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.upload1mb()[pri:3, instance:com.epam.rest.service.test.TestFileRepo@1d422d], [TestResult name=deleteIdempotent status=FAILURE method=TestFileRepo.deleteIdempotent()[pri:9, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.deleteIdempotent()[pri:9, instance:com.epam.rest.service.test.TestFileRepo@1d422d], [TestResult name=download status=FAILURE method=TestFileRepo.download()[pri:2, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.download()[pri:2, instance:com.epam.rest.service.test.TestFileRepo@1d422d], [TestResult name=deleteIncorrect status=FAILURE method=TestFileRepo.deleteIncorrect()[pri:6, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.deleteIncorrect()[pri:6, instance:com.epam.rest.service.test.TestFileRepo@1d422d], [TestResult name=downloadIdempotent status=FAILURE method=TestFileRepo.downloadIdempotent()[pri:10, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.downloadIdempotent()[pri:10, instance:com.epam.rest.service.test.TestFileRepo@1d422d], [TestResult name=downloadIncorrect status=FAILURE method=TestFileRepo.downloadIncorrect()[pri:7, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.downloadIncorrect()[pri:7, instance:com.epam.rest.service.test.TestFileRepo@1d422d], [TestResult name=delete status=FAILURE method=TestFileRepo.delete()[pri:1, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.delete()[pri:1, instance:com.epam.rest.service.test.TestFileRepo@1d422d], [TestResult name=uploadIncorrect status=FAILURE method=TestFileRepo.uploadIncorrect()[pri:5, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.uploadIncorrect()[pri:5, instance:com.epam.rest.service.test.TestFileRepo@1d422d], [TestResult name=uploadIdempotent status=FAILURE method=TestFileRepo.uploadIdempotent()[pri:8, instance:com.epam.rest.service.test.TestFileRepo@1d422d] output={null}]=TestFileRepo.uploadIdempotent()[pri:8, instance:com.epam.rest.service.test.TestFileRepo@1d422d]}]
+2018-07-11 15:35:19 INFO  CustomListener:60 - Passed tests for suite 'Suite1' is - 0
+2018-07-11 15:35:19 INFO  CustomListener:62 - Failed tests for suite 'Suite1' is:11
+2018-07-11 15:35:19 INFO  CustomListener:64 - Skipped tests for suite 'Suite1' is:0
+2018-07-11 17:25:36 INFO  CustomListener:44 - test starts FileTest2 on Wed Jul 11 17:25:36 EEST 2018
+2018-07-11 17:25:36 INFO  CustomListener:44 - test starts FileTest2 on Wed Jul 11 17:25:36 EEST 2018
+2018-07-11 17:25:36 INFO  CustomListener:19 - test starts null
+2018-07-11 17:25:36 INFO  CustomListener:19 - test starts null
+2018-07-11 17:25:36 INFO  TestFileRepo:21 - 
+ test======= upload file
+2018-07-11 17:25:43 INFO  CustomListener:29 - test failed null
+2018-07-11 17:25:43 INFO  CustomListener:29 - test failed null
+2018-07-11 17:25:43 INFO  CustomListener:19 - test starts null
+2018-07-11 17:25:43 INFO  CustomListener:19 - test starts null
+2018-07-11 17:25:43 INFO  TestFileRepo:29 - 
+ test======= delete file
+2018-07-11 17:25:43 INFO  CustomListener:29 - test failed null
+2018-07-11 17:25:43 INFO  CustomListener:29 - test failed null
+2018-07-11 17:25:43 INFO  CustomListener:19 - test starts null
+2018-07-11 17:25:43 INFO  CustomListener:19 - test starts null
+2018-07-11 17:25:43 INFO  TestFileRepo:37 - 
+ test======= download file
+2018-07-11 17:25:44 INFO  CustomListener:29 - test failed null
+2018-07-11 17:25:44 INFO  CustomListener:29 - test failed null
+2018-07-11 17:25:44 INFO  CustomListener:19 - test starts null
+2018-07-11 17:25:44 INFO  CustomListener:19 - test starts null
+2018-07-11 17:25:44 INFO  TestFileRepo:45 - 
+ test======= upload file >1Mb
+2018-07-11 17:25:44 INFO  CustomListener:29 - test failed null
+2018-07-11 17:25:44 INFO  CustomListener:29 - test failed null
+2018-07-11 17:25:44 INFO  CustomListener:19 - test starts null
+2018-07-11 17:25:44 INFO  CustomListener:19 - test starts null
+2018-07-11 17:25:44 INFO  TestFileRepo:53 - 
+ test======= download file > 1Mb
+2018-07-11 17:25:44 INFO  CustomListener:29 - test failed null
+2018-07-11 17:25:44 INFO  CustomListener:29 - test failed null
+2018-07-11 17:25:44 INFO  CustomListener:19 - test starts null
+2018-07-11 17:25:44 INFO  CustomListener:19 - test starts null
+2018-07-11 17:25:44 INFO  TestFileRepo:60 - 
+ test======= upload file with incorrect name
+2018-07-11 17:25:44 INFO  CustomListener:29 - test failed null
+2018-07-11 17:25:44 INFO  CustomListener:29 - test failed null
+2018-07-11 17:25:44 INFO  CustomListener:19 - test starts null
+2018-07-11 17:25:44 INFO  CustomListener:19 - test starts null
+2018-07-11 17:25:44 INFO  TestFileRepo:68 - 
+ test======= delete file with incorrect name
+2018-07-11 17:25:44 INFO  CustomListener:29 - test failed null
+2018-07-11 17:25:44 INFO  CustomListener:29 - test failed null
+2018-07-11 17:25:44 INFO  CustomListener:19 - test starts null
+2018-07-11 17:25:44 INFO  CustomListener:19 - test starts null
+2018-07-11 17:25:44 INFO  TestFileRepo:76 - 
+ test======= download file with incorrect name
+2018-07-11 17:25:45 INFO  CustomListener:29 - test failed null
+2018-07-11 17:25:45 INFO  CustomListener:29 - test failed null
+2018-07-11 17:25:45 INFO  CustomListener:19 - test starts null
+2018-07-11 17:25:45 INFO  CustomListener:19 - test starts null
+2018-07-11 17:25:45 INFO  TestFileRepo:84 - 
+ test======= idempotent upload
+2018-07-11 17:25:45 INFO  CustomListener:29 - test failed null
+2018-07-11 17:25:45 INFO  CustomListener:29 - test failed null
+2018-07-11 17:25:45 INFO  CustomListener:19 - test starts null
+2018-07-11 17:25:45 INFO  CustomListener:19 - test starts null
+2018-07-11 17:25:45 INFO  TestFileRepo:93 - 
+ test======= idempotent delete
+2018-07-11 17:25:46 INFO  CustomListener:29 - test failed null
+2018-07-11 17:25:46 INFO  CustomListener:29 - test failed null
+2018-07-11 17:25:46 INFO  CustomListener:19 - test starts null
+2018-07-11 17:25:46 INFO  CustomListener:19 - test starts null
+2018-07-11 17:25:46 INFO  TestFileRepo:102 - 
+ test======= idempotent download
+2018-07-11 17:25:46 INFO  CustomListener:29 - test failed null
+2018-07-11 17:25:46 INFO  CustomListener:29 - test failed null
+2018-07-11 17:25:46 INFO  CustomListener:49 - Passed tests: [ResultMap map={}]
+2018-07-11 17:25:46 INFO  CustomListener:50 - Failed tests:[ResultMap map={[TestResult name=downloadIncorrect status=FAILURE method=TestFileRepo.downloadIncorrect()[pri:7, instance:com.epam.rest.service.test.TestFileRepo@127bd23] output={null}]=TestFileRepo.downloadIncorrect()[pri:7, instance:com.epam.rest.service.test.TestFileRepo@127bd23], [TestResult name=download1Mb status=FAILURE method=TestFileRepo.download1Mb()[pri:4, instance:com.epam.rest.service.test.TestFileRepo@127bd23] output={null}]=TestFileRepo.download1Mb()[pri:4, instance:com.epam.rest.service.test.TestFileRepo@127bd23], [TestResult name=downloadIdempotent status=FAILURE method=TestFileRepo.downloadIdempotent()[pri:10, instance:com.epam.rest.service.test.TestFileRepo@127bd23] output={null}]=TestFileRepo.downloadIdempotent()[pri:10, instance:com.epam.rest.service.test.TestFileRepo@127bd23], [TestResult name=upload status=FAILURE method=TestFileRepo.upload()[pri:0, instance:com.epam.rest.service.test.TestFileRepo@127bd23] output={null}]=TestFileRepo.upload()[pri:0, instance:com.epam.rest.service.test.TestFileRepo@127bd23], [TestResult name=download status=FAILURE method=TestFileRepo.download()[pri:2, instance:com.epam.rest.service.test.TestFileRepo@127bd23] output={null}]=TestFileRepo.download()[pri:2, instance:com.epam.rest.service.test.TestFileRepo@127bd23], [TestResult name=delete status=FAILURE method=TestFileRepo.delete()[pri:1, instance:com.epam.rest.service.test.TestFileRepo@127bd23] output={null}]=TestFileRepo.delete()[pri:1, instance:com.epam.rest.service.test.TestFileRepo@127bd23], [TestResult name=uploadIncorrect status=FAILURE method=TestFileRepo.uploadIncorrect()[pri:5, instance:com.epam.rest.service.test.TestFileRepo@127bd23] output={null}]=TestFileRepo.uploadIncorrect()[pri:5, instance:com.epam.rest.service.test.TestFileRepo@127bd23], [TestResult name=upload1mb status=FAILURE method=TestFileRepo.upload1mb()[pri:3, instance:com.epam.rest.service.test.TestFileRepo@127bd23] output={null}]=TestFileRepo.upload1mb()[pri:3, instance:com.epam.rest.service.test.TestFileRepo@127bd23], [TestResult name=deleteIncorrect status=FAILURE method=TestFileRepo.deleteIncorrect()[pri:6, instance:com.epam.rest.service.test.TestFileRepo@127bd23] output={null}]=TestFileRepo.deleteIncorrect()[pri:6, instance:com.epam.rest.service.test.TestFileRepo@127bd23], [TestResult name=uploadIdempotent status=FAILURE method=TestFileRepo.uploadIdempotent()[pri:8, instance:com.epam.rest.service.test.TestFileRepo@127bd23] output={null}]=TestFileRepo.uploadIdempotent()[pri:8, instance:com.epam.rest.service.test.TestFileRepo@127bd23], [TestResult name=deleteIdempotent status=FAILURE method=TestFileRepo.deleteIdempotent()[pri:9, instance:com.epam.rest.service.test.TestFileRepo@127bd23] output={null}]=TestFileRepo.deleteIdempotent()[pri:9, instance:com.epam.rest.service.test.TestFileRepo@127bd23]}]
+2018-07-11 17:25:46 INFO  CustomListener:49 - Passed tests: [ResultMap map={}]
+2018-07-11 17:25:46 INFO  CustomListener:50 - Failed tests:[ResultMap map={[TestResult name=downloadIncorrect status=FAILURE method=TestFileRepo.downloadIncorrect()[pri:7, instance:com.epam.rest.service.test.TestFileRepo@127bd23] output={null}]=TestFileRepo.downloadIncorrect()[pri:7, instance:com.epam.rest.service.test.TestFileRepo@127bd23], [TestResult name=download1Mb status=FAILURE method=TestFileRepo.download1Mb()[pri:4, instance:com.epam.rest.service.test.TestFileRepo@127bd23] output={null}]=TestFileRepo.download1Mb()[pri:4, instance:com.epam.rest.service.test.TestFileRepo@127bd23], [TestResult name=downloadIdempotent status=FAILURE method=TestFileRepo.downloadIdempotent()[pri:10, instance:com.epam.rest.service.test.TestFileRepo@127bd23] output={null}]=TestFileRepo.downloadIdempotent()[pri:10, instance:com.epam.rest.service.test.TestFileRepo@127bd23], [TestResult name=upload status=FAILURE method=TestFileRepo.upload()[pri:0, instance:com.epam.rest.service.test.TestFileRepo@127bd23] output={null}]=TestFileRepo.upload()[pri:0, instance:com.epam.rest.service.test.TestFileRepo@127bd23], [TestResult name=download status=FAILURE method=TestFileRepo.download()[pri:2, instance:com.epam.rest.service.test.TestFileRepo@127bd23] output={null}]=TestFileRepo.download()[pri:2, instance:com.epam.rest.service.test.TestFileRepo@127bd23], [TestResult name=delete status=FAILURE method=TestFileRepo.delete()[pri:1, instance:com.epam.rest.service.test.TestFileRepo@127bd23] output={null}]=TestFileRepo.delete()[pri:1, instance:com.epam.rest.service.test.TestFileRepo@127bd23], [TestResult name=uploadIncorrect status=FAILURE method=TestFileRepo.uploadIncorrect()[pri:5, instance:com.epam.rest.service.test.TestFileRepo@127bd23] output={null}]=TestFileRepo.uploadIncorrect()[pri:5, instance:com.epam.rest.service.test.TestFileRepo@127bd23], [TestResult name=upload1mb status=FAILURE method=TestFileRepo.upload1mb()[pri:3, instance:com.epam.rest.service.test.TestFileRepo@127bd23] output={null}]=TestFileRepo.upload1mb()[pri:3, instance:com.epam.rest.service.test.TestFileRepo@127bd23], [TestResult name=deleteIncorrect status=FAILURE method=TestFileRepo.deleteIncorrect()[pri:6, instance:com.epam.rest.service.test.TestFileRepo@127bd23] output={null}]=TestFileRepo.deleteIncorrect()[pri:6, instance:com.epam.rest.service.test.TestFileRepo@127bd23], [TestResult name=uploadIdempotent status=FAILURE method=TestFileRepo.uploadIdempotent()[pri:8, instance:com.epam.rest.service.test.TestFileRepo@127bd23] output={null}]=TestFileRepo.uploadIdempotent()[pri:8, instance:com.epam.rest.service.test.TestFileRepo@127bd23], [TestResult name=deleteIdempotent status=FAILURE method=TestFileRepo.deleteIdempotent()[pri:9, instance:com.epam.rest.service.test.TestFileRepo@127bd23] output={null}]=TestFileRepo.deleteIdempotent()[pri:9, instance:com.epam.rest.service.test.TestFileRepo@127bd23]}]
+2018-07-11 17:25:46 INFO  CustomListener:60 - Passed tests for suite 'Suite1' is - 0
+2018-07-11 17:25:46 INFO  CustomListener:62 - Failed tests for suite 'Suite1' is:11
+2018-07-11 17:25:46 INFO  CustomListener:64 - Skipped tests for suite 'Suite1' is:0
+2018-07-11 17:27:46 INFO  CustomListener:44 - test starts Default test on Wed Jul 11 17:27:46 EEST 2018
+2018-07-11 17:27:46 INFO  CustomListener:44 - test starts Default test on Wed Jul 11 17:27:46 EEST 2018
+2018-07-11 17:27:46 INFO  CustomListener:19 - test starts null
+2018-07-11 17:27:46 INFO  CustomListener:19 - test starts null
+2018-07-11 17:27:46 INFO  TestFileRepo:21 - 
+ test======= upload file
+2018-07-11 17:27:51 INFO  CustomListener:29 - test failed null
+2018-07-11 17:27:51 INFO  CustomListener:29 - test failed null
+2018-07-11 17:27:51 INFO  CustomListener:19 - test starts null
+2018-07-11 17:27:51 INFO  CustomListener:19 - test starts null
+2018-07-11 17:27:51 INFO  TestFileRepo:29 - 
+ test======= delete file
+2018-07-11 17:27:52 INFO  CustomListener:29 - test failed null
+2018-07-11 17:27:52 INFO  CustomListener:29 - test failed null
+2018-07-11 17:27:52 INFO  CustomListener:19 - test starts null
+2018-07-11 17:27:52 INFO  CustomListener:19 - test starts null
+2018-07-11 17:27:52 INFO  TestFileRepo:37 - 
+ test======= download file
+2018-07-11 17:27:52 INFO  CustomListener:29 - test failed null
+2018-07-11 17:27:52 INFO  CustomListener:29 - test failed null
+2018-07-11 17:27:52 INFO  CustomListener:19 - test starts null
+2018-07-11 17:27:52 INFO  CustomListener:19 - test starts null
+2018-07-11 17:27:52 INFO  TestFileRepo:45 - 
+ test======= upload file >1Mb
+2018-07-11 17:27:53 INFO  CustomListener:29 - test failed null
+2018-07-11 17:27:53 INFO  CustomListener:29 - test failed null
+2018-07-11 17:27:53 INFO  CustomListener:19 - test starts null
+2018-07-11 17:27:53 INFO  CustomListener:19 - test starts null
+2018-07-11 17:27:53 INFO  TestFileRepo:53 - 
+ test======= download file > 1Mb
+2018-07-11 17:27:53 INFO  CustomListener:29 - test failed null
+2018-07-11 17:27:53 INFO  CustomListener:29 - test failed null
+2018-07-11 17:27:53 INFO  CustomListener:19 - test starts null
+2018-07-11 17:27:53 INFO  CustomListener:19 - test starts null
+2018-07-11 17:27:53 INFO  TestFileRepo:60 - 
+ test======= upload file with incorrect name
+2018-07-11 17:27:53 INFO  CustomListener:29 - test failed null
+2018-07-11 17:27:53 INFO  CustomListener:29 - test failed null
+2018-07-11 17:27:53 INFO  CustomListener:19 - test starts null
+2018-07-11 17:27:53 INFO  CustomListener:19 - test starts null
+2018-07-11 17:27:53 INFO  TestFileRepo:68 - 
+ test======= delete file with incorrect name
+2018-07-11 17:27:54 INFO  CustomListener:29 - test failed null
+2018-07-11 17:27:54 INFO  CustomListener:29 - test failed null
+2018-07-11 17:27:54 INFO  CustomListener:19 - test starts null
+2018-07-11 17:27:54 INFO  CustomListener:19 - test starts null
+2018-07-11 17:27:54 INFO  TestFileRepo:76 - 
+ test======= download file with incorrect name
+2018-07-11 17:27:54 INFO  CustomListener:29 - test failed null
+2018-07-11 17:27:54 INFO  CustomListener:29 - test failed null
+2018-07-11 17:27:54 INFO  CustomListener:19 - test starts null
+2018-07-11 17:27:54 INFO  CustomListener:19 - test starts null
+2018-07-11 17:27:54 INFO  TestFileRepo:84 - 
+ test======= idempotent upload
+2018-07-11 17:27:55 INFO  CustomListener:29 - test failed null
+2018-07-11 17:27:55 INFO  CustomListener:29 - test failed null
+2018-07-11 17:27:55 INFO  CustomListener:19 - test starts null
+2018-07-11 17:27:55 INFO  CustomListener:19 - test starts null
+2018-07-11 17:27:55 INFO  TestFileRepo:93 - 
+ test======= idempotent delete
+2018-07-11 17:27:56 INFO  CustomListener:29 - test failed null
+2018-07-11 17:27:56 INFO  CustomListener:29 - test failed null
+2018-07-11 17:27:56 INFO  CustomListener:19 - test starts null
+2018-07-11 17:27:56 INFO  CustomListener:19 - test starts null
+2018-07-11 17:27:56 INFO  TestFileRepo:102 - 
+ test======= idempotent download
+2018-07-11 17:27:56 INFO  CustomListener:29 - test failed null
+2018-07-11 17:27:56 INFO  CustomListener:29 - test failed null
+2018-07-11 17:27:56 INFO  CustomListener:49 - Passed tests: [ResultMap map={}]
+2018-07-11 17:27:56 INFO  CustomListener:50 - Failed tests:[ResultMap map={[TestResult name=download status=FAILURE method=TestFileRepo.download()[pri:2, instance:com.epam.rest.service.test.TestFileRepo@195d2a2] output={null}]=TestFileRepo.download()[pri:2, instance:com.epam.rest.service.test.TestFileRepo@195d2a2], [TestResult name=uploadIncorrect status=FAILURE method=TestFileRepo.uploadIncorrect()[pri:5, instance:com.epam.rest.service.test.TestFileRepo@195d2a2] output={null}]=TestFileRepo.uploadIncorrect()[pri:5, instance:com.epam.rest.service.test.TestFileRepo@195d2a2], [TestResult name=upload status=FAILURE method=TestFileRepo.upload()[pri:0, instance:com.epam.rest.service.test.TestFileRepo@195d2a2] output={null}]=TestFileRepo.upload()[pri:0, instance:com.epam.rest.service.test.TestFileRepo@195d2a2], [TestResult name=download1Mb status=FAILURE method=TestFileRepo.download1Mb()[pri:4, instance:com.epam.rest.service.test.TestFileRepo@195d2a2] output={null}]=TestFileRepo.download1Mb()[pri:4, instance:com.epam.rest.service.test.TestFileRepo@195d2a2], [TestResult name=deleteIncorrect status=FAILURE method=TestFileRepo.deleteIncorrect()[pri:6, instance:com.epam.rest.service.test.TestFileRepo@195d2a2] output={null}]=TestFileRepo.deleteIncorrect()[pri:6, instance:com.epam.rest.service.test.TestFileRepo@195d2a2], [TestResult name=downloadIdempotent status=FAILURE method=TestFileRepo.downloadIdempotent()[pri:10, instance:com.epam.rest.service.test.TestFileRepo@195d2a2] output={null}]=TestFileRepo.downloadIdempotent()[pri:10, instance:com.epam.rest.service.test.TestFileRepo@195d2a2], [TestResult name=downloadIncorrect status=FAILURE method=TestFileRepo.downloadIncorrect()[pri:7, instance:com.epam.rest.service.test.TestFileRepo@195d2a2] output={null}]=TestFileRepo.downloadIncorrect()[pri:7, instance:com.epam.rest.service.test.TestFileRepo@195d2a2], [TestResult name=uploadIdempotent status=FAILURE method=TestFileRepo.uploadIdempotent()[pri:8, instance:com.epam.rest.service.test.TestFileRepo@195d2a2] output={null}]=TestFileRepo.uploadIdempotent()[pri:8, instance:com.epam.rest.service.test.TestFileRepo@195d2a2], [TestResult name=delete status=FAILURE method=TestFileRepo.delete()[pri:1, instance:com.epam.rest.service.test.TestFileRepo@195d2a2] output={null}]=TestFileRepo.delete()[pri:1, instance:com.epam.rest.service.test.TestFileRepo@195d2a2], [TestResult name=deleteIdempotent status=FAILURE method=TestFileRepo.deleteIdempotent()[pri:9, instance:com.epam.rest.service.test.TestFileRepo@195d2a2] output={null}]=TestFileRepo.deleteIdempotent()[pri:9, instance:com.epam.rest.service.test.TestFileRepo@195d2a2], [TestResult name=upload1mb status=FAILURE method=TestFileRepo.upload1mb()[pri:3, instance:com.epam.rest.service.test.TestFileRepo@195d2a2] output={null}]=TestFileRepo.upload1mb()[pri:3, instance:com.epam.rest.service.test.TestFileRepo@195d2a2]}]
+2018-07-11 17:27:56 INFO  CustomListener:49 - Passed tests: [ResultMap map={}]
+2018-07-11 17:27:56 INFO  CustomListener:50 - Failed tests:[ResultMap map={[TestResult name=download status=FAILURE method=TestFileRepo.download()[pri:2, instance:com.epam.rest.service.test.TestFileRepo@195d2a2] output={null}]=TestFileRepo.download()[pri:2, instance:com.epam.rest.service.test.TestFileRepo@195d2a2], [TestResult name=uploadIncorrect status=FAILURE method=TestFileRepo.uploadIncorrect()[pri:5, instance:com.epam.rest.service.test.TestFileRepo@195d2a2] output={null}]=TestFileRepo.uploadIncorrect()[pri:5, instance:com.epam.rest.service.test.TestFileRepo@195d2a2], [TestResult name=upload status=FAILURE method=TestFileRepo.upload()[pri:0, instance:com.epam.rest.service.test.TestFileRepo@195d2a2] output={null}]=TestFileRepo.upload()[pri:0, instance:com.epam.rest.service.test.TestFileRepo@195d2a2], [TestResult name=download1Mb status=FAILURE method=TestFileRepo.download1Mb()[pri:4, instance:com.epam.rest.service.test.TestFileRepo@195d2a2] output={null}]=TestFileRepo.download1Mb()[pri:4, instance:com.epam.rest.service.test.TestFileRepo@195d2a2], [TestResult name=deleteIncorrect status=FAILURE method=TestFileRepo.deleteIncorrect()[pri:6, instance:com.epam.rest.service.test.TestFileRepo@195d2a2] output={null}]=TestFileRepo.deleteIncorrect()[pri:6, instance:com.epam.rest.service.test.TestFileRepo@195d2a2], [TestResult name=downloadIdempotent status=FAILURE method=TestFileRepo.downloadIdempotent()[pri:10, instance:com.epam.rest.service.test.TestFileRepo@195d2a2] output={null}]=TestFileRepo.downloadIdempotent()[pri:10, instance:com.epam.rest.service.test.TestFileRepo@195d2a2], [TestResult name=downloadIncorrect status=FAILURE method=TestFileRepo.downloadIncorrect()[pri:7, instance:com.epam.rest.service.test.TestFileRepo@195d2a2] output={null}]=TestFileRepo.downloadIncorrect()[pri:7, instance:com.epam.rest.service.test.TestFileRepo@195d2a2], [TestResult name=uploadIdempotent status=FAILURE method=TestFileRepo.uploadIdempotent()[pri:8, instance:com.epam.rest.service.test.TestFileRepo@195d2a2] output={null}]=TestFileRepo.uploadIdempotent()[pri:8, instance:com.epam.rest.service.test.TestFileRepo@195d2a2], [TestResult name=delete status=FAILURE method=TestFileRepo.delete()[pri:1, instance:com.epam.rest.service.test.TestFileRepo@195d2a2] output={null}]=TestFileRepo.delete()[pri:1, instance:com.epam.rest.service.test.TestFileRepo@195d2a2], [TestResult name=deleteIdempotent status=FAILURE method=TestFileRepo.deleteIdempotent()[pri:9, instance:com.epam.rest.service.test.TestFileRepo@195d2a2] output={null}]=TestFileRepo.deleteIdempotent()[pri:9, instance:com.epam.rest.service.test.TestFileRepo@195d2a2], [TestResult name=upload1mb status=FAILURE method=TestFileRepo.upload1mb()[pri:3, instance:com.epam.rest.service.test.TestFileRepo@195d2a2] output={null}]=TestFileRepo.upload1mb()[pri:3, instance:com.epam.rest.service.test.TestFileRepo@195d2a2]}]
+2018-07-11 17:27:56 INFO  CustomListener:60 - Passed tests for suite 'Default suite' is - 0
+2018-07-11 17:27:56 INFO  CustomListener:62 - Failed tests for suite 'Default suite' is:11
+2018-07-11 17:27:56 INFO  CustomListener:64 - Skipped tests for suite 'Default suite' is:0
+2018-07-12 13:11:23 INFO  CustomListener:44 - test starts FileTest2 on Thu Jul 12 13:11:23 EEST 2018
+2018-07-12 13:11:23 INFO  CustomListener:44 - test starts FileTest2 on Thu Jul 12 13:11:23 EEST 2018
+2018-07-12 13:11:23 INFO  CustomListener:19 - test starts null
+2018-07-12 13:11:23 INFO  CustomListener:19 - test starts null
+2018-07-12 13:11:23 INFO  TestFileRepo:21 - 
+ test======= upload file
+2018-07-12 13:11:29 INFO  CustomListener:24 - test passed null during time 5656
+2018-07-12 13:11:29 INFO  CustomListener:24 - test passed null during time 5656
+2018-07-12 13:11:29 INFO  CustomListener:19 - test starts null
+2018-07-12 13:11:29 INFO  CustomListener:19 - test starts null
+2018-07-12 13:11:29 INFO  TestFileRepo:29 - 
+ test======= delete file
+2018-07-12 13:11:29 INFO  CustomListener:24 - test passed null during time 391
+2018-07-12 13:11:29 INFO  CustomListener:24 - test passed null during time 391
+2018-07-12 13:11:29 INFO  CustomListener:19 - test starts null
+2018-07-12 13:11:29 INFO  CustomListener:19 - test starts null
+2018-07-12 13:11:29 INFO  TestFileRepo:37 - 
+ test======= download file
+2018-07-12 13:11:30 INFO  CustomListener:24 - test passed null during time 344
+2018-07-12 13:11:30 INFO  CustomListener:24 - test passed null during time 344
+2018-07-12 13:11:30 INFO  CustomListener:19 - test starts null
+2018-07-12 13:11:30 INFO  CustomListener:19 - test starts null
+2018-07-12 13:11:30 INFO  TestFileRepo:45 - 
+ test======= upload file >1Mb
+2018-07-12 13:11:30 INFO  CustomListener:24 - test passed null during time 454
+2018-07-12 13:11:30 INFO  CustomListener:24 - test passed null during time 454
+2018-07-12 13:11:30 INFO  CustomListener:19 - test starts null
+2018-07-12 13:11:30 INFO  CustomListener:19 - test starts null
+2018-07-12 13:11:30 INFO  TestFileRepo:53 - 
+ test======= download file > 1Mb
+2018-07-12 13:11:30 INFO  CustomListener:24 - test passed null during time 15
+2018-07-12 13:11:30 INFO  CustomListener:24 - test passed null during time 15
+2018-07-12 13:11:30 INFO  CustomListener:19 - test starts null
+2018-07-12 13:11:30 INFO  CustomListener:19 - test starts null
+2018-07-12 13:11:30 INFO  TestFileRepo:60 - 
+ test======= upload file with incorrect name
+2018-07-12 13:11:30 INFO  CustomListener:24 - test passed null during time 141
+2018-07-12 13:11:30 INFO  CustomListener:24 - test passed null during time 141
+2018-07-12 13:11:30 INFO  CustomListener:19 - test starts null
+2018-07-12 13:11:30 INFO  CustomListener:19 - test starts null
+2018-07-12 13:11:30 INFO  TestFileRepo:68 - 
+ test======= delete file with incorrect name
+2018-07-12 13:11:31 INFO  CustomListener:24 - test passed null during time 312
+2018-07-12 13:11:31 INFO  CustomListener:24 - test passed null during time 312
+2018-07-12 13:11:31 INFO  CustomListener:19 - test starts null
+2018-07-12 13:11:31 INFO  CustomListener:19 - test starts null
+2018-07-12 13:11:31 INFO  TestFileRepo:76 - 
+ test======= download file with incorrect name
+2018-07-12 13:11:31 INFO  CustomListener:24 - test passed null during time 141
+2018-07-12 13:11:31 INFO  CustomListener:24 - test passed null during time 141
+2018-07-12 13:11:31 INFO  CustomListener:19 - test starts null
+2018-07-12 13:11:31 INFO  CustomListener:19 - test starts null
+2018-07-12 13:11:31 INFO  TestFileRepo:84 - 
+ test======= idempotent upload
+2018-07-12 13:11:31 INFO  CustomListener:24 - test passed null during time 593
+2018-07-12 13:11:31 INFO  CustomListener:24 - test passed null during time 593
+2018-07-12 13:11:31 INFO  CustomListener:19 - test starts null
+2018-07-12 13:11:31 INFO  CustomListener:19 - test starts null
+2018-07-12 13:11:31 INFO  TestFileRepo:93 - 
+ test======= idempotent delete
+2018-07-12 13:11:32 INFO  CustomListener:24 - test passed null during time 453
+2018-07-12 13:11:32 INFO  CustomListener:24 - test passed null during time 453
+2018-07-12 13:11:32 INFO  CustomListener:19 - test starts null
+2018-07-12 13:11:32 INFO  CustomListener:19 - test starts null
+2018-07-12 13:11:32 INFO  TestFileRepo:102 - 
+ test======= idempotent download
+2018-07-12 13:11:32 INFO  CustomListener:24 - test passed null during time 234
+2018-07-12 13:11:32 INFO  CustomListener:24 - test passed null during time 234
+2018-07-12 13:11:32 INFO  CustomListener:49 - Passed tests: [ResultMap map={[TestResult name=delete status=SUCCESS method=TestFileRepo.delete()[pri:1, instance:com.epam.rest.service.test.TestFileRepo@67c67e] output={null}]=TestFileRepo.delete()[pri:1, instance:com.epam.rest.service.test.TestFileRepo@67c67e], [TestResult name=download status=SUCCESS method=TestFileRepo.download()[pri:2, instance:com.epam.rest.service.test.TestFileRepo@67c67e] output={null}]=TestFileRepo.download()[pri:2, instance:com.epam.rest.service.test.TestFileRepo@67c67e], [TestResult name=upload status=SUCCESS method=TestFileRepo.upload()[pri:0, instance:com.epam.rest.service.test.TestFileRepo@67c67e] output={null}]=TestFileRepo.upload()[pri:0, instance:com.epam.rest.service.test.TestFileRepo@67c67e], [TestResult name=uploadIncorrect status=SUCCESS method=TestFileRepo.uploadIncorrect()[pri:5, instance:com.epam.rest.service.test.TestFileRepo@67c67e] output={null}]=TestFileRepo.uploadIncorrect()[pri:5, instance:com.epam.rest.service.test.TestFileRepo@67c67e], [TestResult name=downloadIdempotent status=SUCCESS method=TestFileRepo.downloadIdempotent()[pri:10, instance:com.epam.rest.service.test.TestFileRepo@67c67e] output={null}]=TestFileRepo.downloadIdempotent()[pri:10, instance:com.epam.rest.service.test.TestFileRepo@67c67e], [TestResult name=upload1mb status=SUCCESS method=TestFileRepo.upload1mb()[pri:3, instance:com.epam.rest.service.test.TestFileRepo@67c67e] output={null}]=TestFileRepo.upload1mb()[pri:3, instance:com.epam.rest.service.test.TestFileRepo@67c67e], [TestResult name=deleteIncorrect status=SUCCESS method=TestFileRepo.deleteIncorrect()[pri:6, instance:com.epam.rest.service.test.TestFileRepo@67c67e] output={null}]=TestFileRepo.deleteIncorrect()[pri:6, instance:com.epam.rest.service.test.TestFileRepo@67c67e], [TestResult name=deleteIdempotent status=SUCCESS method=TestFileRepo.deleteIdempotent()[pri:9, instance:com.epam.rest.service.test.TestFileRepo@67c67e] output={null}]=TestFileRepo.deleteIdempotent()[pri:9, instance:com.epam.rest.service.test.TestFileRepo@67c67e], [TestResult name=download1Mb status=SUCCESS method=TestFileRepo.download1Mb()[pri:4, instance:com.epam.rest.service.test.TestFileRepo@67c67e] output={null}]=TestFileRepo.download1Mb()[pri:4, instance:com.epam.rest.service.test.TestFileRepo@67c67e], [TestResult name=downloadIncorrect status=SUCCESS method=TestFileRepo.downloadIncorrect()[pri:7, instance:com.epam.rest.service.test.TestFileRepo@67c67e] output={null}]=TestFileRepo.downloadIncorrect()[pri:7, instance:com.epam.rest.service.test.TestFileRepo@67c67e], [TestResult name=uploadIdempotent status=SUCCESS method=TestFileRepo.uploadIdempotent()[pri:8, instance:com.epam.rest.service.test.TestFileRepo@67c67e] output={null}]=TestFileRepo.uploadIdempotent()[pri:8, instance:com.epam.rest.service.test.TestFileRepo@67c67e]}]
+2018-07-12 13:11:32 INFO  CustomListener:50 - Failed tests:[ResultMap map={}]
+2018-07-12 13:11:32 INFO  CustomListener:49 - Passed tests: [ResultMap map={[TestResult name=delete status=SUCCESS method=TestFileRepo.delete()[pri:1, instance:com.epam.rest.service.test.TestFileRepo@67c67e] output={null}]=TestFileRepo.delete()[pri:1, instance:com.epam.rest.service.test.TestFileRepo@67c67e], [TestResult name=download status=SUCCESS method=TestFileRepo.download()[pri:2, instance:com.epam.rest.service.test.TestFileRepo@67c67e] output={null}]=TestFileRepo.download()[pri:2, instance:com.epam.rest.service.test.TestFileRepo@67c67e], [TestResult name=upload status=SUCCESS method=TestFileRepo.upload()[pri:0, instance:com.epam.rest.service.test.TestFileRepo@67c67e] output={null}]=TestFileRepo.upload()[pri:0, instance:com.epam.rest.service.test.TestFileRepo@67c67e], [TestResult name=uploadIncorrect status=SUCCESS method=TestFileRepo.uploadIncorrect()[pri:5, instance:com.epam.rest.service.test.TestFileRepo@67c67e] output={null}]=TestFileRepo.uploadIncorrect()[pri:5, instance:com.epam.rest.service.test.TestFileRepo@67c67e], [TestResult name=downloadIdempotent status=SUCCESS method=TestFileRepo.downloadIdempotent()[pri:10, instance:com.epam.rest.service.test.TestFileRepo@67c67e] output={null}]=TestFileRepo.downloadIdempotent()[pri:10, instance:com.epam.rest.service.test.TestFileRepo@67c67e], [TestResult name=upload1mb status=SUCCESS method=TestFileRepo.upload1mb()[pri:3, instance:com.epam.rest.service.test.TestFileRepo@67c67e] output={null}]=TestFileRepo.upload1mb()[pri:3, instance:com.epam.rest.service.test.TestFileRepo@67c67e], [TestResult name=deleteIncorrect status=SUCCESS method=TestFileRepo.deleteIncorrect()[pri:6, instance:com.epam.rest.service.test.TestFileRepo@67c67e] output={null}]=TestFileRepo.deleteIncorrect()[pri:6, instance:com.epam.rest.service.test.TestFileRepo@67c67e], [TestResult name=deleteIdempotent status=SUCCESS method=TestFileRepo.deleteIdempotent()[pri:9, instance:com.epam.rest.service.test.TestFileRepo@67c67e] output={null}]=TestFileRepo.deleteIdempotent()[pri:9, instance:com.epam.rest.service.test.TestFileRepo@67c67e], [TestResult name=download1Mb status=SUCCESS method=TestFileRepo.download1Mb()[pri:4, instance:com.epam.rest.service.test.TestFileRepo@67c67e] output={null}]=TestFileRepo.download1Mb()[pri:4, instance:com.epam.rest.service.test.TestFileRepo@67c67e], [TestResult name=downloadIncorrect status=SUCCESS method=TestFileRepo.downloadIncorrect()[pri:7, instance:com.epam.rest.service.test.TestFileRepo@67c67e] output={null}]=TestFileRepo.downloadIncorrect()[pri:7, instance:com.epam.rest.service.test.TestFileRepo@67c67e], [TestResult name=uploadIdempotent status=SUCCESS method=TestFileRepo.uploadIdempotent()[pri:8, instance:com.epam.rest.service.test.TestFileRepo@67c67e] output={null}]=TestFileRepo.uploadIdempotent()[pri:8, instance:com.epam.rest.service.test.TestFileRepo@67c67e]}]
+2018-07-12 13:11:32 INFO  CustomListener:50 - Failed tests:[ResultMap map={}]
+2018-07-12 13:11:32 INFO  CustomListener:60 - Passed tests for suite 'Suite1' is - 11
+2018-07-12 13:11:32 INFO  CustomListener:62 - Failed tests for suite 'Suite1' is:0
+2018-07-12 13:11:32 INFO  CustomListener:64 - Skipped tests for suite 'Suite1' is:0
